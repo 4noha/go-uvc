@@ -29,6 +29,8 @@ const (
 	FRAME_FORMAT_BGR FrameFormat = C.UVC_FRAME_FORMAT_BGR
 	// Motion-JPEG (or JPEG) encoded images
 	FRAME_FORMAT_MJPEG FrameFormat = C.UVC_FRAME_FORMAT_MJPEG
+	// H.264 encoded images
+	FRAME_FORMAT_H264 FrameFormat  = C.UVC_FRAME_FORMAT_H264
 	// Greyscale images
 	FRAME_FORMAT_GRAY8  FrameFormat = C.UVC_FRAME_FORMAT_GRAY8
 	FRAME_FORMAT_GRAY16 FrameFormat = C.UVC_FRAME_FORMAT_GRAY16
